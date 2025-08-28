@@ -315,3 +315,115 @@ A comprehensive member management system for the Intania Alumni Basketball Assoc
 **Document Version:** 1.0  
 **Last Updated:** August 18, 2025  
 **Next Review:** September 2025
+
+### Current Project File Structure
+
+.git'  
+.
+├── .cursor
+│ └── rules
+│ ├── commands.md
+│ └── prd.md
+├── .env.local
+├── .gitignore
+├── .next
+│ ├── app-build-manifest.json
+│ ├── build
+│ │ └── chunks
+│ ├── build-manifest.json
+│ ├── cache
+│ │ ├── .rscinfo
+│ │ └── next-devtools-config.json
+│ ├── fallback-build-manifest.json
+│ ├── package.json
+│ ├── postcss.js
+│ ├── postcss.js.map
+│ ├── prerender-manifest.json
+│ ├── routes-manifest.json
+│ ├── server
+│ │ ├── app
+│ │ ├── app-paths-manifest.json
+│ │ ├── chunks
+│ │ ├── edge
+│ │ ├── interception-route-rewrite-manifest.js
+│ │ ├── middleware
+│ │ ├── middleware-build-manifest.js
+│ │ ├── middleware-manifest.json
+│ │ ├── next-font-manifest.js
+│ │ ├── next-font-manifest.json
+│ │ ├── pages-manifest.json
+│ │ ├── server-reference-manifest.js
+│ │ └── server-reference-manifest.json
+│ ├── static
+│ │ ├── chunks
+│ │ ├── development
+│ │ └── media
+│ ├── trace
+│ └── types
+│ ├── routes.d.ts
+│ └── validator.ts
+├── app
+│ ├── auth
+│ │ ├── confirm
+│ │ ├── error
+│ │ ├── forgot-password
+│ │ ├── login
+│ │ ├── sign-up
+│ │ ├── sign-up-success
+│ │ └── update-password
+│ ├── favicon.ico
+│ ├── globals.css
+│ ├── layout.tsx
+│ ├── opengraph-image.png
+│ ├── page.tsx
+│ ├── protected
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ └── twitter-image.png
+├── components
+│ ├── auth-button.tsx
+│ ├── deploy-button.tsx
+│ ├── env-var-warning.tsx
+│ ├── forgot-password-form.tsx
+│ ├── hero.tsx
+│ ├── login-form.tsx
+│ ├── logout-button.tsx
+│ ├── next-logo.tsx
+│ ├── sign-up-form.tsx
+│ ├── supabase-logo.tsx
+│ ├── theme-switcher.tsx
+│ ├── tutorial
+│ │ ├── code-block.tsx
+│ │ ├── connect-supabase-steps.tsx
+│ │ ├── fetch-data-steps.tsx
+│ │ ├── sign-up-user-steps.tsx
+│ │ └── tutorial-step.tsx
+│ ├── ui
+│ │ ├── badge.tsx
+│ │ ├── button.tsx
+│ │ ├── card.tsx
+│ │ ├── checkbox.tsx
+│ │ ├── dropdown-menu.tsx
+│ │ ├── input.tsx
+│ │ └── label.tsx
+│ └── update-password-form.tsx
+├── components.json
+├── eslint.config.mjs
+├── lib
+│ ├── supabase
+│ │ ├── client.ts
+│ │ ├── middleware.ts
+│ │ └── server.ts
+│ └── utils.ts
+├── LICENSE
+├── middleware.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│ └── logo.png
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
